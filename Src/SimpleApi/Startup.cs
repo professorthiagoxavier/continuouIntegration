@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace SimpleApi
+namespace SimpleAPI
 {
     public class Startup
     {
@@ -41,7 +41,7 @@ namespace SimpleApi
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            
             app.UseMvc();
         }
     }
